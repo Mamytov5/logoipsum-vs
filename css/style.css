@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-nav a {
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: -0.468947px;
+  margin: 0 25px;
+  color: #696871;
+}
+.header-nav a:hover {
+  color: black;
+  border-bottom: 2px solid #5454d4;
+}
+.header-btn {
+  width: 150px;
+  height: 40px;
+  background: #ff7143;
+  border-radius: 10px;
+}
+button {
+  border: none;
+  color: aliceblue;
+  cursor: pointer;
+}
+#header {
+  margin: 15px 0 0 0;
+}
+.hero-text h1 {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 77px;
+  letter-spacing: -2.50105px;
+  width: 452px;
+  color: #19191b;
+}
+.hero-text p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  width: 459px;
+  letter-spacing: -0.625263px;
+  color: #696871;
+  margin: 20px 0;
+}
+.hero-btn {
+  background: #5454d4;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+  margin: 0 15px 0 0;
+}
+.hero-btns a {
+  font-size: 25px;
+  color: #19191b;
+}
+.hero-btns {
+  display: flex;
+  align-items: center;
+}
+.hero-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#hero {
+  margin: 50px 0 0 0;
+}
+.hero-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 70px 0 0 0;
+}
+.about-text h1 {
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: -1.56316px;
+  color: #19191b;
+}
+.about-text p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  width: 459px;
+  letter-spacing: -0.625263px;
+  color: #696871;
+  margin: 20px 0;
+}
+.about-text button {
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: -0.531474px;
+  background: transparent;
+  color: #5454d4;
+}
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-block h1 {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: -0.750316px;
+  color: #19191b;
+  margin: 15px 0;
+}
+.card-block p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.500211px;
+  width: 307px;
+  color: #696871;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#card {
+  margin: 70px 0 0 0;
+}
+
+.free-btn {
+  width: 120px;
+  height: 40px;
+  background: #5454d4;
+  border-radius: 10px 0px 0px 10px;
+}
+.free-btn1 {
+  width: 120px;
+  height: 40px;
+  background: #f7f7fb;
+  border-radius: 10px;
+  color: #19191b;
+}
+.free-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 70px 0;
+}
+.free-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  width: 523px;
+  letter-spacing: -1.87579px;
+  color: #19191b;
+}
+.free-startet1 h3 {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.562737px;
+  color: #696871;
+}
+.free-startet1 h1 {
+  font-weight: 700;
+  font-size: 60px;
+  letter-spacing: -1.03448px;
+  color: #1d293f;
+}
+.free-startet1 h2 {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 50px;
+  letter-spacing: -0.531474px;
+  color: #696871;
+  margin: 15px 0;
+}
+.free-startet1 button {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.531474px;
+  color: #5454d4;
+  background: none;
+}
+.free-startet1{
+  width: 350px;
+  height: 400px;
+  background: #FF7143;
+  box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+  border-radius: 10px;
+padding: 35px 0 0 0;
+}
+
+.free-startet h3 {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.562737px;
+  color: #696871;
+}
+.free-startet h1 {
+  font-weight: 700;
+  font-size: 60px;
+  letter-spacing: -1.03448px;
+  color: #1d293f;
+}
+.free-startet h2 {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 50px;
+  letter-spacing: -0.531474px;
+  color: #696871;
+  margin: 15px 0;
+}
+.free-startet button {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -0.531474px;
+  color: #5454d4;
+}
+.free-startet{
+  width: 350px;
+  height: 400px;
+  background: #F8F8F8;
+border-radius: 10px;
+padding: 35px 0 0 0;
+}
+.free-startetblocks{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
